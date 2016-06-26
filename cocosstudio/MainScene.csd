@@ -6,16 +6,26 @@
       <ObjectData Name="Scene" ctype="GameNodeObjectData">
         <Size X="960.0000" Y="640.0000" />
         <Children>
-          <AbstractNodeData Name="Default" ActionTag="953446860" Tag="5" IconVisible="False" ObjectIndex="2" ctype="SpriteObjectData">
+          <AbstractNodeData Name="Default" ActionTag="953446860" Tag="5" IconVisible="False" ctype="SpriteObjectData">
             <Size X="960.0000" Y="640.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="480.0000" Y="320.0000" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.5000" Y="0.5000" />
-            <PreSize X="0.0000" Y="0.0000" />
+            <PreSize X="1.0000" Y="1.0000" />
             <FileData Type="Normal" Path="HelloWorld.png" Plist="" />
             <BlendFunc Src="1" Dst="771" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="Map_1" ActionTag="170133408" Tag="6" IconVisible="False" LeftMargin="-309.6026" RightMargin="-330.3973" TopMargin="-78.8785" BottomMargin="-81.1214" ctype="GameMapObjectData">
+            <Size X="1600.0000" Y="800.0000" />
+            <AnchorPoint />
+            <Position X="-309.6026" Y="-81.1214" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="-0.3225" Y="-0.1268" />
+            <PreSize X="1.6667" Y="1.2500" />
+            <FileData Type="Normal" Path="isometric_grass_and_water.tmx" Plist="" />
           </AbstractNodeData>
         </Children>
       </ObjectData>

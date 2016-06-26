@@ -4,6 +4,8 @@
     <Group ctype="ResourceGroup">
       <RootFolder Name=".">
         <Image Name="HelloWorld.png" />
+        <Image Name="isometric_grass_and_water.png" />
+        <TmxFile Name="isometric_grass_and_water.tmx" />
         <Project Name="MainScene.csd" Type="Scene" />
       </RootFolder>
     </Group>
